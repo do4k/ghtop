@@ -1,0 +1,25 @@
+# binary
+ghtop
+
+# build artifacts
+dist/
+*.exe
+*.exe~
+
+# test output
+*.test
+*.out
+coverage.html
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/
