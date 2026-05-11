@@ -13,11 +13,29 @@ Built with [Bubble Tea](https://github.com/charmbracelet/bubbletea) and the [gh 
 
 ## Install
 
+**Download a pre-built binary** from the [releases page](https://github.com/do4k/ghtop/releases) for your platform:
+
+| Platform | File |
+|----------|------|
+| macOS (Apple Silicon) | `ghtop-darwin-arm64` |
+| macOS (Intel) | `ghtop-darwin-amd64` |
+| Linux x86-64 | `ghtop-linux-amd64` |
+| Linux ARM64 | `ghtop-linux-arm64` |
+| Windows x86-64 | `ghtop-windows-amd64.exe` |
+
+```sh
+# macOS / Linux example
+chmod +x ghtop-darwin-arm64
+mv ghtop-darwin-arm64 /usr/local/bin/ghtop
+```
+
+**Or install with Go:**
+
 ```sh
 go install github.com/do4k/ghtop@latest
 ```
 
-Or build from source:
+**Or build from source:**
 
 ```sh
 git clone https://github.com/do4k/ghtop
