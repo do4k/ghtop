@@ -4,25 +4,7 @@ A terminal UI for monitoring GitHub Actions workflow runs. Pin specific runs acr
 
 Built with [Bubble Tea](https://github.com/charmbracelet/bubbletea) and the [gh CLI](https://cli.github.com/).
 
-```
-ghtop  GitHub Actions Monitor
-────────────────────────────────────────────────────────────────────
-
- ► ✅  owner/repo  #42
-        Deploy to production
-        main · ✓ success · 3m ago
-
-   ⏳  another-org/api  #1337
-        Run integration tests
-        feat/auth · ⏳ queued
-
-   🔄  my-org/frontend  #99
-        Build & release
-        main · running · just now
-
-────────────────────────────────────────────────────────────────────
-  a add  d delete  r refresh all  R refresh  o open  j/k ↑/↓  q quit
-```
+![ghtop screenshot](screenshot.png)
 
 ## Requirements
 
